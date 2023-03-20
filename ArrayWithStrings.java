@@ -1,7 +1,8 @@
 public class ArrayWithStrings {
     public static void main(String[] args) {
+        System.out.println();
 
-        String[] saiyans = new String[8];
+        String[] saiyans = new String[9];
 
         saiyans[0] = "Goku";
         saiyans[1] = "Vegeta";
@@ -11,11 +12,14 @@ public class ArrayWithStrings {
         saiyans[5] = "Broly";
         saiyans[6] = "Bardock";
         saiyans[7] = "Raditz";
+        saiyans[8] = "Nappa";
 
         System.out.println("The saiyans are: ");
 
         for (int i = 0; i < saiyans.length; i++) {
             System.out.println(saiyans[i]);
         }
+
+        System.out.println();
     }
 }
